@@ -1,3 +1,4 @@
+//Frequency distribution of blood types
 import java.util.*;
 public class BloodGroup{
 
