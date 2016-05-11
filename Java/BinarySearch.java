@@ -25,9 +25,9 @@ public class BinarySearch {
 			System.out.println(middle+" "+low+" "+high);
 			
 			if(key > values[middle])
-				low += 1;
+				low = middle + 1;
 			else if(key < values[middle])
-				high -= 1;
+				high = middle - 1;
 			else 
 				return middle;
 			
