@@ -1,12 +1,11 @@
-public class EuclidsAlgorithm{
+class EuclidsAlgorithm{
     public static void main(String[] args) {
-        EuclidsAlgorithm ea = new EuclidsAlgorithm();
-        System.out.println(ea.gcd(7,10));
+        System.out.println(new EuclidsAlgorithm().gcd(5,10));
     }
 
-    private int gcd(int p,int q){
-        if(q == 0) return p;
-        int r = p % q;
-        return gcd(q, r);
+    int gcd(int a, int b){
+        if(b ==0) return a;
+        int r = a % b;
+        return gcd(b,r);
     }
 }
