@@ -5,4 +5,4 @@ $ rm -- --test
 ```
 
 ## Resources and References
-[baeldung.com](https://www.baeldung.com/linux/double-dash-in-shell-commands)
+[cyberciti.biz](https://www.cyberciti.biz/faq/what-does-double-dash-mean-in-ssh-command/)
